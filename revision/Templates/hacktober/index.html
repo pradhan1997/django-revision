@@ -1,11 +1,16 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>hacktober</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
 </head>
 <body>
     <p>views and templates</p>
-    {{some_content}}
+
+    <div class="style-this">
+        {{some_content}}
+    </div>
 </body>
 </html>
